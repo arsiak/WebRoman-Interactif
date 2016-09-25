@@ -1,0 +1,36 @@
+html{
+
+	height: 100%;
+	background-color: red;
+	color: black;
+
+}
+
+body{
+	text-align: center;
+	margin-top: 10%;
+
+
+}
+
+#error{
+	font-size: 20px;
+
+}
+
+#id404{
+	font-size: 200px;
+	font-style: oblique;
+	text-shadow: 2px 2px 0.2px grey;;
+
+
+}
+
+#morale{
+	background-color: grey;
+	border-style: solid;
+	border-color: black;
+	margin-left: 20%;
+	margin-right: 20%;
+
+}

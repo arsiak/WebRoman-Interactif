@@ -1,0 +1,64 @@
+
+body {
+	margin : 0;
+	padding : 0;
+	background-color : #ed1c24;
+}
+header{
+	width : 100%;
+	margin : 0;
+	padding : 0;
+	background-color : #ed1c24;
+}
+header img{
+	display : block;
+	margin : auto;
+	padding : 0;
+	text-align
+}
+section article {
+	display : block;
+	width : 55% ;
+	margin : auto; 
+	padding : 0 1.5%;
+	background-color : #ECEAEA;
+
+}
+
+section{
+	font-family : Arial;
+}
+
+section article{
+	border : 2px #000000 solid;
+}
+
+section p {
+	margin : 0;
+	padding : 0;
+	font-size : 1.3em;
+	padding : 5px 0;
+	
+}
+
+section div{
+	display : block;
+	width : 100%;
+	text-align : center;
+	padding : 20px 0;
+}
+
+section div a{
+	padding : 10px;
+	color : #000000;
+	text-decoration : none;
+	background-color : #ECEAEA;
+	font-size : 2em;
+	border : 2px black solid; 
+}
+
+section div a:hover{
+	color : #FFFFFF;
+	background-color : #ed1c24;
+	border : 2px white solid;
+}

@@ -1,0 +1,222 @@
+html{
+
+	height: 100%;
+	min-width : 1100px;
+ }
+
+body {
+	height : 100%;
+	display : flex;
+	flex-direction: column; 
+	background-color : #c3c3c3;
+	margin : 0;
+	padding : 0;
+	font-family : Arial;
+}
+
+header{
+	display : flex;
+	background-color : #ed1c24;
+	margin : 0;	
+	padding : 0;
+	padding-left : 1%;
+
+}
+#Rechercher{
+	display : flex;
+	margin : 25px 0 ;
+	margin-left : 10%;
+	flex: 1;
+}
+
+#Barre{
+	display : block;
+	width : 30%;
+	height : 25px;
+	box-sizing: border-box;
+	border : 1px #b8b8b8 solid; 
+	background-color : white;
+}
+
+#Loupe{
+	display : block;
+	width : 25px;
+	height : 25px;
+	background-image : url("Loupe.png")
+}
+#Loupe:hover{
+	background-image : url("LoupeHover.png")
+}
+
+section{
+	display : flex;
+	background-color : #c3c3c3;
+	width:100%;
+	flex: 1 1 auto;
+
+}
+#Info{
+	width : 25%;
+}
+
+#Info p{
+	width : 50%;
+	margin : auto;
+	margin-top : 10px;
+	color : grey;
+}
+
+#infoBulle{
+	margin : auto;
+	margin-top : 50px;
+	width : 146px;
+	height : 146px;
+	border : 3px gray dashed ; 
+}
+
+#Cadre{
+	width : 140px;
+	height : 140px;
+	margin : auto;
+
+	border : 3px white solid; 
+	border-radius: 3px;
+}
+
+#Trame{
+	flex : 1.1;
+	margin : 0;
+	background-color : white;
+	padding : 2%
+}
+
+article{
+	margin-bottom : 10px;
+	margin-top : 10px;
+	border : 2px black solid; 
+}
+article h1{
+	margin : 1% 0;
+	padding-left : 2%;
+	border-bottom : 1px black solid;
+}
+
+article p{
+	padding-left : 1%;
+	padding-right : 1%;
+}
+
+#Conversation{
+	width : 18%;
+}
+
+#MessageBox{
+	position : fixed;
+	right: 16%;
+    bottom: 0px;
+	background-color : white;
+	width : 250px;
+	height : 250px;
+	border-top : 2px #A0A1A1 solid; 
+	border-left : 2px #A0A1A1 solid; 
+	border-right : 2px #A0A1A1 solid; 
+}
+
+#MessageBox h1{
+	margin : 0;
+	font-size : 1em;
+	border-bottom : 2px #A0A1A1 solid; 
+	padding-left : 1%;
+}
+
+#Messages{
+	height : 70%;
+	overflow-y: scroll;
+}
+#Messages p{
+	margin : 0;
+	padding-left : 1%;
+}
+#Reponse{
+	height : 30%;
+	border-top : 1px #A0A1A1 solid; 
+	padding-left : 1%;
+	
+}
+
+#Amis{
+	width : 15%;
+	background-color : #b8b8b8;
+	border-left : 1px #A0A1A1 solid; 
+}
+#Amis h1{
+	margin : 0;
+	margin-left : 1%;
+	color : #424242;
+	font-size : 1.2em;
+}
+
+#ListeAmis{
+	padding-left : 6%;
+	font-size : 1em;
+	border : 3px gray dashed ; 
+	
+}
+#ListeAmis p{
+	margin : 0;
+	margin-top : 5px;
+}
+
+#descAmis{
+	width : 90%;
+
+	color : gray;
+}
+
+.Déconnecté{
+	color : #878787;
+}
+
+footer{
+	background-color: #ed1c24;
+	margin: 0;
+	padding : 15px 0;
+	text-align : center;
+}
+
+footer p{
+	margin : 0;
+
+}
+
+a:hover{
+color:red;
+}
+
+#Fermer{
+	float: right;
+	margin-right: 4px;
+	text-decoration: none;
+	color: red;
+
+
+}
+
+#Fermer:hover{
+	color: black;
+}
+
+#MessageBox1{
+	position : fixed;
+	right: 16%;
+   bottom: 0px;
+	background-color : white;
+	width : 250px;
+	border-top : 2px #A0A1A1 solid; 
+	border-left : 2px #A0A1A1 solid; 
+	border-right : 2px #A0A1A1 solid;  
+	text-align: center;
+	font-size: 10px;
+
+}
+
